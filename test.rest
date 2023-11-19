@@ -1,0 +1,16 @@
+post http://localhost:3000/schools/school
+Content-Type: application/json
+
+{
+    "name": "bgs molyko",
+    "location": "Buea",
+    "owner": "Government",
+    "fullName": "bilingual grammar school molyko"
+}
+
+###
+
+post http://localhost:3000/signUp
+Content-Type: application/x-www-form-urlencoded
+
+username=ebot2002&password=Jesus123&email=achaleebotoma2002@gmail.com
